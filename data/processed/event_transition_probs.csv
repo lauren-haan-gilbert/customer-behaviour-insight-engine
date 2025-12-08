@@ -1,0 +1,5 @@
+,page_view,add_to_cart,checkout
+add_to_cart,0.998,0.0,0.002
+checkout,0.612,0.388,0.0
+page_view,0.0,1.0,0.0
+purchase,0.0,0.007,0.993
