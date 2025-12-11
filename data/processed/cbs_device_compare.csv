@@ -1,0 +1,4 @@
+year,device_category,cbs_pct,site_pct,difference_site_minus_cbs,interpretation
+2019,Any mobile device,84.4,62.0,-22.4,Broad mobile usage: smartphone + tablet on site vs CBS 'any mobile'.
+2019,Smartphone,82.5,55.0,-27.5,Site 'mobile' traffic approximates smartphone usage.
+2019,Tablet,27.5,7.1,-20.4,Direct tablet-to-tablet comparison.
