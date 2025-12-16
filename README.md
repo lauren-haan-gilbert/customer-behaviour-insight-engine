@@ -106,6 +106,31 @@ customer-behaviour-insight-engine/
 	•	Evaluate support, confidence, and lift
 	•	Critically assess usefulness given low multi-item session frequency
 
+	---
+## 7. SQL Data Model (in progress / planned)
+	•	Load cleaned tables into PostgreSQL
+	•	Design a relational data model
+	•	Write joins and aggregation queries
+	•	Build analytical SQL queries
+	•	Recreate key analyses from pandas directly in SQL
+
+
+## 8. Final Analytical Report
+A polished, story-driven notebook designed for non-technical stakeholders, covering:
+	1.	Data overview
+	2.	Cleaning & transformation
+	3.	Feature engineering
+	4.	Behaviour funnels
+	5.	Sequence analysis
+	6.	Product associations
+	7.	Customer segmentation
+	8.	External enrichment (CBS or similar)
+	9.	Insights
+	10.	Recommendations
+	11.	Next steps
+
+	---
+
 ## Tools & Technologies
 	•	Python: Pandas, NumPy, Matplotlib
 	•	SQL: PostgreSQL (via DBeaver)
@@ -116,11 +141,12 @@ customer-behaviour-insight-engine/
   
 ## What This Project Demonstrates
 	•	Translating raw event data into meaningful analytics tables
-	•	Structuring a multi-step analytics workflow
-	•	Critical thinking about when certain methods are appropriate
+	•	Structuring a multi-step behavioural analytics workflow
+	•	Choosing appropriate analytical methods — and recognising their limits
+	•	Analysing both session-level and customer-level behaviour
 	•	Communicating insights clearly through code, tables, and visuals
-	•	A practical, business-oriented approach to behavioural data analysis
-
+	•	Designing analysis so it can be replicated in both Python and SQL
+	•	Building toward decision-ready reporting, not just exploration
 ---
 
 ## Possible Extensions
