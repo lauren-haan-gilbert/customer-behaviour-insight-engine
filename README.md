@@ -62,6 +62,7 @@ customer-behaviour-insight-engine/
 ├── README.md
 └── requirements.txt
 
+---
 
 ## Analysis Steps
 
@@ -110,6 +111,7 @@ customer-behaviour-insight-engine/
 	•	Notebooks: Jupyter
 	•	Version Control: Git & GitHub
 
+---
   
 ## What This Project Demonstrates
 	•	Translating raw event data into meaningful analytics tables
@@ -117,6 +119,8 @@ customer-behaviour-insight-engine/
 	•	Critical thinking about when certain methods are appropriate
 	•	Communicating insights clearly through code, tables, and visuals
 	•	A practical, business-oriented approach to behavioural data analysis
+
+---
 
 ## Possible Extensions
 	•	Customer-level sequence modelling across multiple sessions
