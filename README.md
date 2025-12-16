@@ -60,7 +60,7 @@ customer-behaviour-insight-engine/
 │
 ├── src/                    # Reusable helper functions (if applicable)
 ├── README.md
-└── requirements.txt
+└── requirements.txt ```
 
 ---
 
