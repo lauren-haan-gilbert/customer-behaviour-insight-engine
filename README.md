@@ -129,7 +129,6 @@ A polished, story-driven notebook designed for non-technical stakeholders, cover
 	10.	Recommendations
 	11.	Next steps
 
-	---
 
 ## Tools & Technologies
 	•	Python: Pandas, NumPy, Matplotlib
