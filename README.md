@@ -1,42 +1,54 @@
-### Customer Behaviour Insight Engine
+# Customer Behaviour Insight Engine
 
-A data analytics project that explores customer behaviour, session journeys, and conversion funnels using clickstream-style data.
-Built with Python and SQL to demonstrate how raw event data can be transformed into actionable insights about user journeys and drop-off points.
+A data analytics project that explores customer behaviour, session journeys, and conversion funnels using clickstream-style data.  
+Built with **Python** and **SQL** to demonstrate how raw event data can be transformed into actionable insights about user journeys and drop-off points.
+
+---
 
 ## Project Overview
 
 This project simulates how a digital organisation (e.g. e-commerce or content platforms) can analyse user behaviour across sessions to understand:
-	•	How users move through a site
-	•	Where they drop off in the funnel
-	•	How behaviour differs by device, country, or session characteristics
-	•	Why simple “one-session” analyses are often insufficient
 
-The focus is not just on metrics, but on ***behavioural patterns and journeys.***
+- How users move through a site  
+- Where they drop off in the funnel  
+- How behaviour differs by device, country, or session characteristics  
+- Why simple *one-session* analyses are often insufficient  
+
+The focus is not just on metrics, but on **behavioural patterns and journeys**.
+
+---
 
 ## Key Questions Explored
-	•	What are the most common session paths through the site?
-	•	Where do users drop off between key steps (view → cart → checkout → purchase)?
-	•	How do conversion rates differ by device or country?
-	•	When is session-level analysis sufficient — and when does customer-level analysis become necessary?
-	•	What are the limits of association rule mining (Apriori) when most sessions contain only a single checkout or purchase?
 
- ## Data
+- What are the most common session paths through the site?
+- Where do users drop off between key steps  
+  *(view → cart → checkout → purchase)*?
+- How do conversion rates differ by device or country?
+- When is session-level analysis sufficient — and when does customer-level analysis become necessary?
+- What are the limits of association rule mining (Apriori) when most sessions contain only a single checkout or purchase?
+
+---
+
+## Data
 
 The project uses structured CSV data representing a simplified clickstream model:
-	•	***events*** – raw user events (page views, cart actions, checkout, purchase)
-	•	***sessions*** – aggregated session information
-	•	***customers*** – customer identifiers and high-level attributes
-	•	***orders*** – purchase data
 
-Event data is processed into ***feature-engineered tables*** for analysis.
+- **events** – raw user events (page views, cart actions, checkout, purchase)  
+- **sessions** – aggregated session information  
+- **customers** – customer identifiers and high-level attributes  
+- **orders** – purchase data  
+
+Event data is processed into **feature-engineered tables** for analysis.
+
+---
 
 ## Project Structure
 
+```text
 customer-behaviour-insight-engine/
-│
 ├── data/
-│   ├── raw/            # Original CSV data
-│   └── processed/      # Feature-engineered tables
+│   ├── raw/                # Original CSV data
+│   └── processed/          # Feature-engineered tables
 │
 ├── notebooks/
 │   ├── 1_data_preparation.ipynb
@@ -46,9 +58,10 @@ customer-behaviour-insight-engine/
 │   ├── 5_customer_metrics.ipynb
 │   └── 6_association_analysis.ipynb
 │
-├── src/                # Reusable helper functions (if applicable)
+├── src/                    # Reusable helper functions (if applicable)
 ├── README.md
 └── requirements.txt
+
 
 ## Analysis Steps
 
@@ -111,6 +124,7 @@ customer-behaviour-insight-engine/
 	•	Product-level funnels
 	•	Dashboarding (e.g. Tableau, Power BI)
 	•	Cloud deployment (e.g. scheduled pipelines, database ingestion)
+
 
   
 
