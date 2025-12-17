@@ -47,8 +47,8 @@ Event data is processed into **feature-engineered tables** for analysis.
 ```text
 customer-behaviour-insight-engine/
 ├── data/
-│   ├── raw/                # Original CSV data
-│   └── processed/          # Feature-engineered tables
+│   ├── raw/                
+│   └── processed/         
 │
 ├── notebooks/
 │   ├── 1_data_preparation.ipynb
@@ -58,7 +58,7 @@ customer-behaviour-insight-engine/
 │   ├── 5_customer_metrics.ipynb
 │   └── 6_association_analysis.ipynb
 │
-├── src/                    # Reusable helper functions (if applicable)
+├── src/                    
 ├── README.md
 └── requirements.txt
 ```
